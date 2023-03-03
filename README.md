@@ -25,4 +25,4 @@ Many Thanks to the UCR Coding Bootcamp Academic team and my wonderful classmates
 N/A
 ## Link to deployed application: 
 
-https://anacampos171.github.io/WeatherDashboard/
+ https://anacampos171.github.io/weather-app/
