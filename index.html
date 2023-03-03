@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">​
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Page Title -->
+    <title>Weather Dashboard</title>
+    <!-- Style background -->
+    <style>
+      body {
+        background-image: url('clouds.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="container-fluid text-center text-white bg-light p-2">
+        <h1>Weather Dashboard</h1>
+        <form id="search-form">
+          <input type="text" id="search-input" placeholder="Enter a city name">
+          <button type="submit">Search</button>
+        </form>
+        <ul id="search-history-list"></ul>
+      </header>
+      <main>
+        <div id="current-weather-container"></div>
+        <div id="forecast-weather-container"></div>
+      </main>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
